@@ -1,0 +1,17 @@
+.squares {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	display: inline-block;
+	background-color: blue;
+	border-radius: 5px;
+}
+
+.hover_class {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	display: inline-block;
+	background-color: red;
+	border-radius: 5px;
+}
