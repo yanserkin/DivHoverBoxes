@@ -9,6 +9,11 @@ $(document).ready(function() {
 	}
 
 	$('#maincontainer div').hover(function() {
-			$(this).toggleClass('hover_class');								// toggle hover_class css
-		})	
+			$(this).addClass('hover_class');								// toggle hover_class css
+		});
+
+	$('button').click(function() {
+			$('#maincontainer div').removeClass('hover_class');
+	});
+
 })
