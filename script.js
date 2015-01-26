@@ -6,9 +6,9 @@ $(document).ready(function() {
 		} else {															// else
 			$("#maincontainer").append("<br>");								// add a break			
 		}
+	}
 
-		$('#maincontainer div').hover(function() {
+	$('#maincontainer div').hover(function() {
 			$(this).toggleClass('hover_class');								// toggle hover_class css
-		})
-	}	
+		})	
 })
